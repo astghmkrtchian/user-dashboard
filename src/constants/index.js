@@ -2,6 +2,7 @@ export const userDefaultData = {
     name: "",
     role: "",
     email: "",
+    purchaseAmount: null
 };
 
 export const submissionError = "Something went wrong on submission of the form";
