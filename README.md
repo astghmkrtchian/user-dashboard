@@ -16,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `start-json-server`
+### `npm run start-json-server`
 
 This command starts the json-server and specifies that it should watch the db.json file and run on port 4000. This command is used to mock your API and runs on [http://localhost:4000] port.
 
