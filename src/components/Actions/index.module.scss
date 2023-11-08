@@ -1,0 +1,11 @@
+.actionsContainer { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dangerButton {
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+}
