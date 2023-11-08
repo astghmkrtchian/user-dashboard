@@ -10,6 +10,7 @@ export const emailValidationRules = [
     { type: "email", message: "Invalid email address" },
 ];
 export const nameValidationRules = [{ required: true, message: "Type the name here" }];
+export const amountValidationRules = [{ pattern: /^\d*$/, message: "Invalid amount" }];
 
 export const defaultCols = [
     {

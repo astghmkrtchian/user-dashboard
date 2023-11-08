@@ -1,6 +1,6 @@
 import { createContext, useState } from 'react';
 
-const PopupContext = createContext();
+const PopupContext = createContext(null);
 
 const PopupProvider = ({ children }) => {
     const [isFormVisible, setIsFormVisible] = useState(false);

@@ -1,6 +1,6 @@
 import { createContext, useState } from 'react';
 
-const TableContext = createContext();
+const TableContext = createContext(null);
 
 const TableProvider = ({ children }) => {
     const [selectedRow, setSelectedRow] = useState(null);

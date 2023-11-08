@@ -11,7 +11,8 @@ import {
     userDefaultData,
     submissionError,
     nameValidationRules,
-    emailValidationRules
+    emailValidationRules,
+    amountValidationRules
 } from "../../constants/index.js";
 
 const AddEditForm = () => {
@@ -87,6 +88,7 @@ const AddEditForm = () => {
                 <Form.Item
                     name="purchaseAmount"
                     label="Purchase Amount(EUR)"
+                    rules={amountValidationRules}
                 >
                     <InputNumber />
                 </Form.Item>

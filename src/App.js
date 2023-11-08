@@ -2,9 +2,7 @@ import React from "react";
 import Dashboard from "./components/Dashboard";
 
 const App = () => (
-    <div>
-        <Dashboard />
-    </div>
+    <Dashboard />
 );
 
 export default App;

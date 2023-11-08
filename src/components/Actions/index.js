@@ -16,7 +16,7 @@ const Actions = ({ userData }) => {
     const editEntry = useCallback(() => {
         setSelectedRow(userData);
         setIsFormVisible(true);
-    }, []);
+    }, [userData]);
 
     const deleteEntry = useCallback(async () => {
         setLoading(true);
@@ -25,7 +25,7 @@ const Actions = ({ userData }) => {
             deleteUser(dispatch, userData.id);
         }
         setLoading(false);
-    }, []);
+    }, [userData]);
 
     return (
         <div className={styles.actionsContainer}>
