@@ -90,7 +90,7 @@ const AddEditForm = () => {
                     label="Purchase Amount(EUR)"
                     rules={amountValidationRules}
                 >
-                    <InputNumber />
+                    <Input  />
                 </Form.Item>
             </Form>
         </Modal>
